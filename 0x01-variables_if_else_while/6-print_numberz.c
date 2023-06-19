@@ -1,9 +1,11 @@
 #include <stdio.h>
+
 /**
- * main is printing numbers 0 to 9.
+ * main - is printing numbers 0 to 9.
  *
- * Return 0 (Success)
+ * Return: always 0 (Success)
  */
+
 int main(void)
 {
 	int i;

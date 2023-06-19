@@ -3,11 +3,16 @@
 #include <stdio.h>
 
 /**
- * more headers goes there
+ * main - Entry point of the program
+ *
+ * The program will assign random number to a variable
+ *
+ * Return: 0 on success
  */
 
 int main(void)
 {
+	/* Function code goes here*/
 	int n;
 
 	srand(time(0));
