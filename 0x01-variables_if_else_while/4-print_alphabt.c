@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include <string.h>
 /**
- * main - Prints the alphabet without q and e.
+ * main is to print the alphabet without letters q and e.
  *
- * Return: Always 0 (Success)
+ * Return 0 (Success)
  */
 
 int main(void)

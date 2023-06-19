@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /*
  * main - Prints the alphabet.
  *
@@ -7,12 +8,12 @@
 
 int main(void)
 {
-	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
-	int i;
+	char alpabet[26] = "abcdefghijklmnopqrstuvwxyz";
+	int x;
 
-	for (i = 0; i < 26; i++)
+	for (x = 0; x < 26; x++)
 	{
-		putchar(alp[i]);
+		putchar(alpabet[x]);
 	}
 	putchar('\n');
 	return (0);
