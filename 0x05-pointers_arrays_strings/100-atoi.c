@@ -8,7 +8,7 @@
 int _atoi(char *s)
 {
 	int a = 0;
-	int num = 0;
+	unsigned int num = 0;
 	int min = 1;
 	int asi = 0;
 
@@ -21,7 +21,7 @@ int _atoi(char *s)
 		while (s[a] >= 48 && s[a] <= 57)
 		{
 			asi = 1;
-			num = (num * 10) + (s[a]);
+			num = (num * 10) + (s[a] - '0');
 			a++;
 		}
 		if (asi == 1)
