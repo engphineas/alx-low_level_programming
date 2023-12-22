@@ -20,7 +20,7 @@ void hash_table_print(const hash_table_t *ht)
 		container = ht->array[j];
 		while (pair_track)
 		{
-			if (not_fin)
+			if (pair_track)
 				printf(", ");
 			printf("'%s': '%s'", container->key, container->value);
 			pair_track = 1;
